@@ -104,7 +104,7 @@ async function run() {
       })
     //Delete APi code//
 
-    //my order delet code //
+    //my order//booking delet code //
     app.delete('/myOrder/:id', async (req, res)=>{
       const id = req.params.id;
       const query = {_id:ObjectId(id)};
